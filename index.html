@@ -9,7 +9,11 @@
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css' rel='stylesheet'>
     <script src="script.js" defer></script>
 
-    <title>Document</title>
+    <title>
+        Tounes made
+      </title>
+      <link rel = "icon" href="logof.png" 
+        type = "image/x-icon">
 </head>
 <body>
     <section class="page-acceuil">
@@ -36,12 +40,12 @@
                 
             </div>
             <ul class="links-container">
-                <li class="link-item"><a href="#" class="link">Home</a></li>
+                <li class="link-item"><a href="#page1" class="link">Home</a></li>
                 <li class="link-item"><a href="#" class="link">Bijoux et accessoires</a></li>
                 <li class="link-item"><a href="#" class="link">Produits du terroir</a></li>
                 <li class="link-item"><a href="#" class="link">Maison et decoration</a></li>
                 <li class="link-item"><a href="#" class="link">Art de la table</a></li>
-                <li class="link-item"><a href="#" class="link">A propos</a></li>
+                <li class="link-item"><a href="#a-prpos" class="link">A propos</a></li>
 
             </ul>
             
@@ -76,7 +80,7 @@
             </nav>
         </div>  -->
         </nav>
-        <section class="page1">
+        <section class="page1" id="page1">
             <div class="img-container-page1">
                 <img src="pexels-abhishek-saini-3145866.jpg" alt="Poterie"style="border-top-left-radius: 100px;
                 border-bottom-right-radius: 100px;border-top-right-radius: 20px;border-bottom-left-radius: 20px;">
@@ -126,7 +130,7 @@
         <div class="product-card">
             <div class="product-image">
                 <span class="discount-tag">- 20%</span>
-                <img src="vase2.jpg" class="product-thumb" alt="">
+                <a href="product.html"><img src="vase2.jpg" class="product-thumb" alt=""></a>
                 <button class="card-btn">Ajouter aux favoris</button>
             </div>
             <div class="product-info">
@@ -330,7 +334,7 @@
         
         
     </section>
-    <section class="about">
+    <section class="about" id="a-prpos">
         <div> <img src="cruche-inachevee.jpg" alt=""></div>
             <div class="about-content">
               <h3>À propos de nous</h3>
@@ -352,18 +356,36 @@
             <img src="circle-chevron-left-solid.svg" id="back-btn">
             <div class="artisan">
             <div>
-                <div>
-                    <img src="sabat.jpg" alt="">
+                <div class="artisan-card">
+                    <img src="story2.jpg" alt="">
+                    <div class="rating">
+                        
+                      </div>
 
                 </div>
-                <div><img src="chaise.jpg" alt=""></div>
-                <div><img src="s7an bijoux.jpg" alt=""></div>
+                <div class="artisan-card"><img src="story4.jpg" alt="">
+                    <div class="rating">
+
+                      </div></div>
+                <div class="artisan-card"><img src="STORY1.jpg" alt="">
+                    <div class="rating">
+  
+                      </div></div>
                 
             </div>
             <div>
-                <div><img src="pot3.jpg" alt=""></div>
-                <div><img src="boucles2.jpg" alt=""></div>
-                <div><img src="ma3oun.jpg" alt=""></div>
+                <div class="artisan-card"><img src="story3.jpg" alt="">
+                    <div class="rating">
+                        
+                      </div></div>
+                <div class="artisan-card"><img src="story5.jpg" alt="">
+                    <div class="rating">
+                       
+                      </div></div>
+                <div class="artisan-card"><img src="story6.jpg" alt="">
+                    <div class="rating">
+                        
+                      </div></div>
                 
             </div>
             <div><button class="backg">voir plus</button></div>
@@ -392,6 +414,7 @@
     gallary.scrollLeft -= 300;
 }
 </script>
+</scetion>
 <section class="home-newsletter">
     <div class="container-n">
     <div class="row">
